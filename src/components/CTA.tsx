@@ -12,7 +12,7 @@ const CTA = () => {
             Ready to Experience the Future?
           </h2>
           <p className="text-lg md:text-xl mb-10 opacity-80 max-w-2xl mx-auto">
-            Join thousands of users who trust Sniper for undetectable, 
+            Join thousands of users who trust Scout.gg for undetectable, 
             high-performance execution. The ultimate tool is just one click away.
           </p>
           

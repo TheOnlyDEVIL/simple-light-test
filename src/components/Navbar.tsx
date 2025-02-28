@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Shield, Eye, Zap } from "lucide-react";
+import { Target, Eye, Zap } from "lucide-react";
 
 const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -30,8 +30,8 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center space-x-1">
-          <Shield className="w-6 h-6" />
-          <span className="text-xl font-bold tracking-tight">sniper</span>
+          <Target className="w-6 h-6" />
+          <span className="text-xl font-bold tracking-tight">scout.gg</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-10">
