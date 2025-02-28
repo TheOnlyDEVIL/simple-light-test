@@ -11,6 +11,9 @@ import CursorFollower from "@/components/CursorFollower";
 
 const Index = () => {
   useEffect(() => {
+    // Force dark mode by adding the dark class to the document
+    document.documentElement.classList.add('dark');
+    
     const handleScroll = () => {
       const reveals = document.querySelectorAll(".reveal-on-scroll");
 
@@ -35,7 +38,7 @@ const Index = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-black text-white">
       <CursorFollower />
       <Navbar />
       <Hero />
