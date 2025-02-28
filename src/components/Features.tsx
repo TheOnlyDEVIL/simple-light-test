@@ -6,7 +6,7 @@ const Features = () => {
     {
       icon: <Eye className="h-8 w-8" />,
       title: "Completely Undetectable",
-      description: "Our advanced cloaking technology ensures you're never detected. With 99 UNC and 99 SUNC, Sniper provides the highest level of security available."
+      description: "Our advanced cloaking technology ensures you're never detected. With 99 UNC and 99 SUNC, Scout.gg provides the highest level of security available."
     },
     {
       icon: <Zap className="h-8 w-8" />,
@@ -16,7 +16,7 @@ const Features = () => {
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Bulletproof Security",
-      description: "Our multi-layered security architecture protects your account and keeps your activities private. Sniper is built with security as the top priority."
+      description: "Our multi-layered security architecture protects your account and keeps your activities private. Scout.gg is built with security as the top priority."
     },
     {
       icon: <Target className="h-8 w-8" />,
@@ -29,12 +29,12 @@ const Features = () => {
     <section id="features" className="py-20 md:py-32 relative">
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-16 md:mb-24">
-          <div className="inline-block px-3 py-1 mb-6 text-xs font-medium tracking-wider bg-secondary text-primary rounded-full">
+          <div className="inline-block px-3 py-1 mb-6 text-xs font-medium tracking-wider bg-secondary text-primary rounded-full shimmer">
             FEATURES
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight text-gradient">Why Choose Sniper?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight text-gradient glow">Why Choose Scout.gg?</h2>
           <p className="text-lg text-muted-foreground">
-            Experience the new standard in execution. Sniper combines unmatched undetectability 
+            Experience the new standard in execution. Scout.gg combines unmatched undetectability 
             with superior performance to deliver the ultimate tool.
           </p>
         </div>
@@ -44,8 +44,9 @@ const Features = () => {
             <div 
               key={index} 
               className="feature-card reveal-on-scroll p-8 rounded-2xl border bg-card hover:glass-morphism dark:hover:glass-morphism-dark"
+              style={{ animationDelay: `${0.1 * index}s` }}
             >
-              <div className="mb-5 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-secondary text-primary">
+              <div className="mb-5 inline-flex items-center justify-center w-12 h-12 rounded-xl bg-secondary text-primary animate-pulse">
                 {feature.icon}
               </div>
               <h3 className="text-xl font-bold mb-3">{feature.title}</h3>

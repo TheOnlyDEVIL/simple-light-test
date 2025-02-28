@@ -7,20 +7,20 @@ const Security = () => {
       <div className="animated-bg"></div>
       <div className="container mx-auto px-6">
         <div className="max-w-3xl mx-auto text-center mb-16">
-          <div className="inline-block px-3 py-1 mb-6 text-xs font-medium tracking-wider bg-secondary text-primary rounded-full">
+          <div className="inline-block px-3 py-1 mb-6 text-xs font-medium tracking-wider bg-secondary text-primary rounded-full shimmer">
             SECURITY
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight text-gradient">
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight text-gradient glow">
             Complete Undetectability
           </h2>
           <p className="text-lg text-muted-foreground">
             Our state-of-the-art security system ensures you're never detected. 
-            Sniper creates a perfect shield between you and detection mechanisms.
+            Scout.gg creates a perfect shield between you and detection mechanisms.
           </p>
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="flex flex-col items-center text-center p-6 reveal-on-scroll">
+          <div className="flex flex-col items-center text-center p-6 reveal-on-scroll animate-float">
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-secondary mb-6">
               <Shield className="h-8 w-8" />
             </div>
@@ -31,7 +31,7 @@ const Security = () => {
             </p>
           </div>
           
-          <div className="flex flex-col items-center text-center p-6 reveal-on-scroll" style={{ animationDelay: "0.1s" }}>
+          <div className="flex flex-col items-center text-center p-6 reveal-on-scroll animate-float" style={{ animationDelay: "0.1s" }}>
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-secondary mb-6">
               <LockKeyhole className="h-8 w-8" />
             </div>
@@ -42,7 +42,7 @@ const Security = () => {
             </p>
           </div>
           
-          <div className="flex flex-col items-center text-center p-6 reveal-on-scroll" style={{ animationDelay: "0.2s" }}>
+          <div className="flex flex-col items-center text-center p-6 reveal-on-scroll animate-float" style={{ animationDelay: "0.2s" }}>
             <div className="w-16 h-16 flex items-center justify-center rounded-full bg-secondary mb-6">
               <EyeOff className="h-8 w-8" />
             </div>
@@ -56,9 +56,9 @@ const Security = () => {
         
         <div className="mt-20 max-w-4xl mx-auto p-8 rounded-2xl border glass-morphism dark:glass-morphism-dark reveal-on-scroll">
           <div className="text-center">
-            <h3 className="text-2xl font-bold mb-4">Experience 99 UNC and 99 SUNC</h3>
+            <h3 className="text-2xl font-bold mb-4 glitch">Experience 99 UNC and 99 SUNC</h3>
             <p className="text-muted-foreground mb-0">
-              Sniper is the only executor to achieve perfect 99/99 scores in both UNC and SUNC metrics, 
+              Scout.gg is the only executor to achieve perfect 99/99 scores in both UNC and SUNC metrics, 
               setting a new industry standard for undetectability and secure execution.
             </p>
           </div>

@@ -9,22 +9,22 @@ const Hero = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block px-3 py-1 mb-6 text-xs font-medium tracking-wider bg-secondary text-primary rounded-full animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            INTRODUCING SNIPER
+            INTRODUCING SCOUT.GG
           </div>
 
           <h1 
-            className="text-4xl md:text-6xl font-bold mb-6 tracking-tight text-gradient animate-fade-in"
+            className="text-4xl md:text-6xl font-bold mb-6 tracking-tight text-gradient animate-fade-in glitch"
             style={{ animationDelay: "0.2s" }}
           >
             The Ultimate Undetectable Executor
           </h1>
 
           <p 
-            className="text-lg md:text-xl text-muted-foreground mx-auto mb-10 max-w-2xl animate-fade-in"
+            className="text-lg md:text-xl text-muted-foreground mx-auto mb-10 max-w-2xl animate-fade-in shimmer"
             style={{ animationDelay: "0.3s" }}
           >
             Experience unparalleled performance with 99 UNC and 99 SUNC. 
-            Sniper provides the most secure, efficient, and undetectable 
+            Scout.gg provides the most secure, efficient, and undetectable 
             execution environment available today.
           </p>
 
@@ -34,11 +34,11 @@ const Hero = () => {
           >
             <Button 
               size="lg"
-              className="w-full sm:w-auto bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 hover-lift"
+              className="w-full sm:w-auto bg-black text-white hover:bg-gray-800 dark:bg-white dark:text-black dark:hover:bg-gray-200 hover-lift pulse"
               asChild
             >
               <a href="https://discord.gg/d5xrrv4j7U" target="_blank" rel="noopener noreferrer">
-                Get Sniper Now
+                Get Scout.gg Now
               </a>
             </Button>
             
@@ -61,11 +61,11 @@ const Hero = () => {
         className="mt-16 md:mt-24 max-w-5xl mx-auto px-6 animate-fade-in"
         style={{ animationDelay: "0.5s" }}
       >
-        <div className="relative rounded-2xl overflow-hidden aspect-video shadow-2xl">
+        <div className="relative rounded-2xl overflow-hidden aspect-video shadow-2xl animate-float">
           <div className="absolute inset-0 bg-black/20 backdrop-blur-sm"></div>
           <div className="absolute inset-0 bg-gradient-to-tr from-black/20 to-transparent"></div>
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="text-2xl md:text-4xl font-bold text-white text-balance">Superior Performance. Complete Undetectability.</div>
+            <div className="text-2xl md:text-4xl font-bold text-white text-balance glow">Superior Performance. Complete Undetectability.</div>
           </div>
         </div>
       </div>
