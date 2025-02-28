@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="container mx-auto px-6">
         <div className="max-w-4xl mx-auto text-center">
           <div className="inline-block px-3 py-1 mb-6 text-xs font-medium tracking-wider bg-secondary text-primary rounded-full animate-fade-in" style={{ animationDelay: "0.1s" }}>
-            INTRODUCING SCOUT.GG
+            INTRODUCING SNIPER
           </div>
 
           <h1 
@@ -24,7 +24,7 @@ const Hero = () => {
             style={{ animationDelay: "0.3s" }}
           >
             Experience unparalleled performance with 99 UNC and 99 SUNC. 
-            Scout.gg provides the most secure, efficient, and undetectable 
+            Sniper provides the most secure, efficient, and undetectable 
             execution environment available today.
           </p>
 
@@ -38,7 +38,7 @@ const Hero = () => {
               asChild
             >
               <a href="https://discord.gg/d5xrrv4j7U" target="_blank" rel="noopener noreferrer">
-                Get Scout.gg Now
+                Get Sniper Now
               </a>
             </Button>
             

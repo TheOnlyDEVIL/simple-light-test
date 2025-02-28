@@ -22,7 +22,7 @@ const Performance = () => {
                 Unmatched Speed & Reliability
               </h2>
               <p className="text-muted-foreground mb-8">
-                Scout.gg sets a new standard with its industry-leading performance metrics. 
+                Sniper sets a new standard with its industry-leading performance metrics. 
                 Our executor delivers the fastest execution times while maintaining complete 
                 undetectability, giving you the edge you need.
               </p>

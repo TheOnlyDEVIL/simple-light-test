@@ -31,7 +31,7 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex items-center justify-between">
         <div className="flex items-center space-x-1">
           <Shield className="w-6 h-6" />
-          <span className="text-xl font-bold tracking-tight">scout.gg</span>
+          <span className="text-xl font-bold tracking-tight">sniper</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-10">

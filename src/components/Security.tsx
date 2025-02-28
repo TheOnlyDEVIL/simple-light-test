@@ -15,7 +15,7 @@ const Security = () => {
           </h2>
           <p className="text-lg text-muted-foreground">
             Our state-of-the-art security system ensures you're never detected. 
-            Scout.gg creates a perfect shield between you and detection mechanisms.
+            Sniper creates a perfect shield between you and detection mechanisms.
           </p>
         </div>
         
@@ -58,7 +58,7 @@ const Security = () => {
           <div className="text-center">
             <h3 className="text-2xl font-bold mb-4">Experience 99 UNC and 99 SUNC</h3>
             <p className="text-muted-foreground mb-0">
-              Scout.gg is the only executor to achieve perfect 99/99 scores in both UNC and SUNC metrics, 
+              Sniper is the only executor to achieve perfect 99/99 scores in both UNC and SUNC metrics, 
               setting a new industry standard for undetectability and secure execution.
             </p>
           </div>

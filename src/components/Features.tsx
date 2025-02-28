@@ -6,7 +6,7 @@ const Features = () => {
     {
       icon: <Eye className="h-8 w-8" />,
       title: "Completely Undetectable",
-      description: "Our advanced cloaking technology ensures you're never detected. With 99 UNC and 99 SUNC, Scout.gg provides the highest level of security available."
+      description: "Our advanced cloaking technology ensures you're never detected. With 99 UNC and 99 SUNC, Sniper provides the highest level of security available."
     },
     {
       icon: <Zap className="h-8 w-8" />,
@@ -16,7 +16,7 @@ const Features = () => {
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Bulletproof Security",
-      description: "Our multi-layered security architecture protects your account and keeps your activities private. Scout.gg is built with security as the top priority."
+      description: "Our multi-layered security architecture protects your account and keeps your activities private. Sniper is built with security as the top priority."
     },
     {
       icon: <Target className="h-8 w-8" />,
@@ -32,9 +32,9 @@ const Features = () => {
           <div className="inline-block px-3 py-1 mb-6 text-xs font-medium tracking-wider bg-secondary text-primary rounded-full">
             FEATURES
           </div>
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight text-gradient">Why Choose Scout.gg?</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-6 tracking-tight text-gradient">Why Choose Sniper?</h2>
           <p className="text-lg text-muted-foreground">
-            Experience the new standard in execution. Scout.gg combines unmatched undetectability 
+            Experience the new standard in execution. Sniper combines unmatched undetectability 
             with superior performance to deliver the ultimate tool.
           </p>
         </div>
